@@ -1,0 +1,71 @@
+{
+  "info": {
+    "_postman_id": "b27665a9-5be7-4ce0-87ea-79a5c3861fd6",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53662535"
+  },
+  "item": [
+    {
+      "name": "Postman methods",
+      "item": [
+        {
+          "name": "http://127.0.0.1:8000/post Copy",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\r\n    \"name\":\"FASTAPI\",\r\n    \"instructor\":\"Warda\",\r\n    \"duration\":4.5,\r\n    \"website\":\"https://aiquest.org/\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:8000/post",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8000",
+              "path": [
+                "post"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://127.0.0.1:8000 Copy",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://127.0.0.1:8000",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8000"
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
